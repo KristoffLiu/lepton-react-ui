@@ -1,7 +1,7 @@
 {
-  "name": "@lepton-ui/react",
+  "name": "@lepton-react-ui/react",
   "version": "1.0.0",
-  "description": "Shared UI component library for MemEcho projects",
+  "description": "Shared React UI component library for MemEcho projects",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -44,7 +44,8 @@
     "ui",
     "components",
     "typescript",
-    "lepton"
+    "lepton",
+    "react-ui"
   ],
   "author": "MemEcho Team",
   "license": "MIT"

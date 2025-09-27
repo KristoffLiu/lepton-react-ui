@@ -1,17 +1,17 @@
-# lepton-ui
+# lepton-react-ui
 
 共享的 React UI 组件库，用于 MemEcho 项目。
 
 ## 安装
 
 ```bash
-pnpm add @lepton-ui/react
+pnpm add @lepton-react-ui/react
 ```
 
 ## 使用
 
 ```tsx
-import { Button, Input, Card } from '@lepton-ui/react'
+import { Button, Input, Card } from '@lepton-react-ui/react'
 
 function App() {
   return (
