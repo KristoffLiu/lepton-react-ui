@@ -122,6 +122,7 @@ export function Dot({
     </div>
   )
 }
+
 export function DotDemo() {
   return (
     <div className="size-full border rounded-lg overflow-hidden">
