@@ -92,3 +92,5 @@ Thumbs.db
 # Temporary folders
 tmp/
 temp/
+/.turbo
+.turbo/turbo-build.log
