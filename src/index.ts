@@ -1,30 +1,15 @@
-// Export shadcn components
-export { Button, buttonVariants } from './components/shadcn/button'
-export { Input } from './components/shadcn/input'
-export { 
-  Card, 
-  CardHeader, 
-  CardFooter, 
-  CardTitle, 
-  CardDescription, 
-  CardContent 
-} from './components/shadcn/card'
+// Components - full exports
+export * from './components/shadcn'
+export * from './components/buouai'
+export * from './components/kristoff'
 
-// Export buouai components
-export { Dot } from './components/buouai/dot'
-export { Grid } from './components/buouai/grid'
-
-// Export kristoff components
-export { ParticleBackground } from './components/kristoff/particle-background'
-export { Spinner } from './components/kristoff/spinner'
-
-// Export hooks
+// Hooks
 export { useIsMobile } from './hooks/use-mobile'
 export { useTheme } from './hooks/use-theme'
 export { useToast } from './hooks/use-toast'
 
-// Export lib utilities
+// Lib utilities
 export { cn } from './lib/utils'
 
-// Export types
+// Types (example)
 export type { ButtonProps } from './components/shadcn/button'
