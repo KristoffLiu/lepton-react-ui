@@ -16,8 +16,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build && tsc --emitDeclarationOnly",
-    "dev": "vite build --watch",
+    "build": "vite build --mode production && tsc --emitDeclarationOnly",
+    "dev": "vite build --watch --mode development",
     "lint": "eslint src --ext .ts,.tsx",
     "type-check": "tsc --noEmit",
     "clean": "rm -rf dist"

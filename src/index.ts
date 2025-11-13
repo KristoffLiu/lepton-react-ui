@@ -2,6 +2,7 @@
 export * from './components/shadcn'
 export * from './components/buouai'
 export * from './components/kristoff'
+export * from './components/layout'
 
 // Hooks
 export { useIsMobile } from './hooks/use-mobile'
