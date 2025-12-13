@@ -5,7 +5,7 @@ interface SpinnerProps {
   className?: string
 }
 
-export function Spinner({ size = 'md', className }: SpinnerProps) {
+export function KristoffSpinner({ size = 'md', className }: SpinnerProps) {
   const sizeClasses = {
     sm: 'h-4 w-4',
     md: 'h-6 w-6', 

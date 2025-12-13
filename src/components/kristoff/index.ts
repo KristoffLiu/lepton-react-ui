@@ -1,2 +1,2 @@
 export * from './particle-background'
-export * from './spinner'
+export { KristoffSpinner } from './spinner'
