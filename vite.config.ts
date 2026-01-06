@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import dts from 'vite-plugin-dts'
 import path from 'path'
+import pkg from './package.json'
 
 export default defineConfig(({ mode }) => {
   const isDev = mode === 'development'
@@ -27,7 +28,13 @@ export default defineConfig(({ mode }) => {
         fileName: (format) => `index.${format}.js`,
       },
       rollupOptions: {
-        external: ['react', 'react-dom'],
+        external: [
+          ...Object.keys(pkg.dependencies || {}),
+          ...Object.keys(pkg.peerDependencies || {}),
+          'react/jsx-runtime',
+          /^@radix-ui\/.*/,
+          /^lucide-react.*/,
+        ],
         output: {
           globals: {
             react: 'React',
